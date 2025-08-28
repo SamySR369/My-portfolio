@@ -23,3 +23,38 @@
 /app/Config/core.php
 /app/Config/database.php
 /vendors/*
+
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*.bak
+
+# PHP specific
+/vendor/
+composer.lock
+.env
+*.cache
+*.session
+
+# IDE settings
+.vscode/
+.idea/
+
+# Node (if you ever use npm for assets)
+node_modules/
+package-lock.json
+
+# Backup / build files
+/dist/
+build/
+*.zip
+*.tar.gz
+
+# Personal files
+config.php
+phpmailer_error.log
+
